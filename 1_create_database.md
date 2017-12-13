@@ -56,7 +56,7 @@ CREATE TABLE `comment` (
 - Create table `follow`
 ```mysql
 CREATE TABLE `follow` (
-	`id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `from_user_id` INT(11) NOT NULL,
   `to_user_id` INT(11),
   `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -67,7 +67,7 @@ CREATE TABLE `follow` (
 - Create table `blog`
 ```mysql
 CREATE TABLE `blog` (
-	`id` INT(11) NOT NULL AUTO_INCREMENT,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `category_id` INT(11) NOT NULL,
   `user_id` INT(11) NOT NULL,
   `title` VARCHAR(255),

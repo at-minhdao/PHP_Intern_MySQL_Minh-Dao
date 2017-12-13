@@ -81,3 +81,8 @@ CREATE TABLE `blog` (
   FOREIGN KEY (`user_id`) REFERENCES user(`id`)
 );
 ```
+- Import database
+```
+use train_mysql;
+source /only_data.sql;
+```
